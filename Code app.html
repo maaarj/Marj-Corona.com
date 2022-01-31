@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+   <!--Font-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+   <!--Icons-->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>#Code App</title>
+</head>
+<body>
+    <!--Navigation bar (collapse, sticky)-->
+    <nav class="navbar navbar-expand-sm bg-light pt-5 pb-4">
+        
+        <div class="container">
+          <ul class="navbar-nav mx-auto" id="navitems">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <!--Hero image-->
+    <div class="jumbotron jumbotron-fluid" id="heroimage-codeapp"> <!--im not sure how to do the responsive image if its a cover. I set it as bg in css & couldnt dim the image only-->
+        <div class="container">
+            <div class="row">
+                <!--text-->
+                <div class="col">
+                    <h1 class="display-4" style="color: white;">#Code App</h1>
+                </div>
+                <!--mockup. couldnt fit the mockup its too big-->
+                <div class="col">
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!--Project summary, type, role. have more spacing in between-->
+    <div class="container-fluid mt-5 mb-5">
+        <div class="container">
+            <div class= "row mx-auto">
+                <div class="col">
+                    <h5 id="Summary">Summary</h5>
+                    <p>#Code app is a learning application for beginners in learning #C. We aim to engage users and have digestible information while learning #C through Study streak, progress trackers, mixed learning materials, downloadable courses, and certification.</p>
+                </div>
+                <div class="col">
+                    <h5 id="Project-type">Project Type</h5>
+                    <ul>
+                        <li>Coure requirement</li>
+                        <li>Mobile Development Project</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h5 id="Roles">Roles & Deliverables</h5>
+                    <p>UX / UI</p>
+                    <ul>
+                        <li>User interview</li>
+                        <li>Affinity Map</li>
+                        <li>Wireframes</li>
+                        <li>Hi-fidelity mockups</li>
+                    </ul>
+                    <p>Interaction Design</p>
+                    <ul>
+                        <li>Hi-fidelity interactive prototype</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Overview-->
+    <div class="container-fluid">
+        <div class="container mx-auto">
+            <div class="row">
+                <div class="cols">
+                    <img src="photos/Codeapp/brainstorming session.png"/>
+                </div>
+                <div class="cols">
+                    <h3>#Code App</h3>
+                        <p>#Code app is a course requirement for our Mobile development class. The requirement is for us to develop any Android application. We chose to work on what is common for all of the members of the group, learning programming languages.<br>
+                        <b>Group members:</b><br>
+
+                        Bernardo, Reanne Mae - Project Leader/Quality Analyst <br>
+
+                        Corona, Marjie Lorraine - UX/UI Designer <br>
+
+                        Fordelon, Angelica - Navigation Planner <br>
+
+                        Rodolfo Rovelyn - Content Planner <br>
+
+                        Silfavan, Dennis Josh - Programmer <br>
+
+                        Usares, Kenneth - Visual Designer <br>
+                        </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Problems & Solution-->
+    <div class="container-fluid">
+        <div class="container mx-auto">
+            <div class="rows">
+                <div class="cols">
+                    <h3><b>The Problem</b></h3>
+                    <p>
+                        <ul>
+                            <li>Too technical or complicated explanation frustrates students resulting in the inability to focus on one material or giving up on studying.</li>
+                            <li>Students prefer video-based or mixed materials over text-based materials.</li>
+                            <li>App notification or reminders are not effective in building habits of making time for studying.</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="cols">
+                    <h3><b>Proposed Solution</b></h3>
+                    <p>
+                        <ul>
+                            <li>Mixed learning materials that they can choose from that are short and digestible.
+                            </li>
+                            <li>Quizzes at the end of each modules.
+                            </li>
+                            <li>Showing them their study streak and progress per module.</li>
+                            <li>Motivating or encouraging copy.</li>
+                            <li>Certificate at the end of the course.</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Ideation-->
+    <div class="container-fluid mt-5">
+        <div class="container">
+            <h1 class="text-center">How might we be able to minimize the frustration in studying programming languages?</h1>
+
+            <!--Flowchart-->
+            <div class="rows mt-5">
+                <div class="cols">
+                    <img src="photos/Codeapp/User flow.png">
+                </div>
+                <div class="cols">
+                    <h3>Flowchart</h3>
+                        <p>I shared this flowchart with the designers and developers to easily map out the key features our app will be doing that we can all understand.
+                        </p>
+                </div>
+            </div>
+
+            <!--Wireframes-->
+            <div class="rows">
+                <div class="cols">
+                    <h3>Wireframes</h3>
+                        <p>After choosing the best ideas from our brainstorming session, Fordy and I translated these ideas into initial wireframes using Adobe XD and continuously asked for our groupmate's feedback.
+                        </p>
+                </div>
+                <div class="cols">
+                    <img src="photos/Codeapp/Wireframe.PNG">
+                </div>
+            </div>
+
+            <!--UI design-->
+            <div class="rows">
+                <div class="cols">
+                    <h3>UI design</h3>
+                        <p>The continuous feedback from our groupmates while keeping in mind what we discovered in research is what helped us refine our designs.<br><br>
+
+                            We developed an application for Android with Light theme with engaging green shades inspired by the Duolingo app.
+                        </p>
+                </div>
+                <div class="cols">
+                    <img src="photos/Codeapp/code mockup.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Gallery -->
+    <div class="row" id="gallery">
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+        <img
+            src="photos/Codeapp/initial screen-mockup.png"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt=""
+        />
+    
+        <img
+            src="photos/Codeapp/initial screen-mockup.png"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Wintry Mountain Landscape"
+        />
+        </div>
+    
+        <div class="col-lg-4 mb-4 mb-lg-0">
+        <img
+            src="photos/Codeapp/initial screen-mockup.png"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Mountains in the Clouds"
+        />
+    
+        <img
+            src="photos/Codeapp/initial screen-mockup.png"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Boat on Calm Water"
+        />
+        </div>
+    
+        <div class="col-lg-4 mb-4 mb-lg-0">
+        <img
+            src="photos/Codeapp/initial screen-mockup.png"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Waves at Sea"
+        />
+    
+        <img
+            src="photos/Codeapp/initial screen-mockup.png"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Yosemite National Park"
+        />
+        </div>
+    </div>
+    
+    <!--Reflections-->
+    <div class="container">
+        <h3>What have you learned from this project?
+        </h3>
+        <p>
+            Research can never fail you. No matter how small the research is, it can always teach you something.<br><br>
+
+            Although the user research here is very small because there are other requirements I have to accomplish, it still played a huge impact on our app.<br><br>
+
+            We were able to freely generate as many ideas as we could then assess ideas against what I found on research and what is doable for us before we could implement. We were able to avoid the fear of not being able to implement the final design we passed to our Professor. We were also able to clearly define the tasks each of us needs to accomplish.
+        </p>
+    </div>
+
+    <!--Quotes-->
+    <div class="container">
+        <q>"The best research you can do is talk to people."</q>
+        <p>- Terry Pratchett</p>
+    </div>
+
+    <!-- Footer (fixed bottom redunce the space between icon and header. center icons)-->
+    <div class="footer mt-5" id="footer">
+        <!-- Footer Elements -->
+        <div class="container">
+            <h2>Let's connect</h2>
+    
+            <!-- Grid row-->
+            <div class="row">
+                
+            <!-- Grid column -->
+                <div class="col-md-12 py-5">
+                    <div class="mb-5 flex-center">
+                        <!--Linkedin -->
+                        <a class="li-ic">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        <!--Gmail-->
+                        <a class="ins-ic">
+                            <i class="bi bi-envelope-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Grid column -->
+    
+            </div>
+        <!-- Grid row-->
+    
+        </div>
+    </div>
+    
+</body>
+</html>

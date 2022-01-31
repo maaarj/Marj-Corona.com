@@ -1,0 +1,108 @@
+
+@font-face{
+    src: url(fonts/Lulo\ Clean\ One.otf);
+    font-family: Lulo-clean;
+}
+@font-face{
+    src: url(fonts/Lulo\ Clean\ One\ Bold.otf);
+    font-family: Lulo-clean-bold;
+}
+
+body {
+  background-color: white;
+
+}
+
+p, a, li {
+    font-family: 'Manrope', sans-serif;
+    font-size: 19px;
+    line-height: 1.7;
+}
+
+h1 {
+  color: black;
+  font-size: 47px;
+  font-family: Lulo-clean-bold;
+  padding-bottom: 50px;
+}
+
+h2 {
+    color: black;
+    font-size: 37px;
+    font-family: Lulo-clean;
+    padding-bottom: 20px;
+}
+
+h3 { /**/
+    color: black;
+    font-size: 29px;
+    font-family: Lulo-clean;
+    padding-bottom: 15px;
+}
+
+h4 {
+    color: #808080;
+    font-size: 23px;
+    font-family: Lulo-clean;
+    padding-bottom: 10px;
+}
+
+h5 {
+    color:#808080;
+    font-size: 18px;
+    font-family: Lulo-clean;
+    padding-bottom: 10px;
+}
+
+.jumbotron {
+    background-color: white;
+    padding: 100px;
+}
+
+#heroimage-trashpanda { 
+    background: url(photos/Trash\ Panda/heroimage.jpg) center center;
+    /*filter: brightness(80%); LOL I tried a dim background but the text went dim too lololol*/
+    width: 100%;
+    height: 500px; /*% sana but it doesnt respond*/
+}
+
+#heroimage-codeapp { 
+    background: url(photos/Codeapp/code-app-heroimage.jpg) center center;
+    /*filter: brightness(80%); LOL I tried a dim background but the text went dim too lololol*/
+    width: 100%;
+    height: 500px; /*% sana but it doesnt respond*/
+}
+
+.btn {
+    padding: 10px 20px;
+}
+
+.nav-item {
+    padding: 10px 40px;
+    color: black;
+}
+
+.nav-link {
+    color: black
+}
+
+.nav-link.active { /*add an underline effect*/
+    font-weight: bold;
+}
+
+.card {
+    max-width: 50%;
+    
+}
+
+.card-body {
+    padding: 20px 40px;
+}
+
+#overview, #bodytext1, #objectives {
+    width: 45%;
+}
+
+#gallery {
+    background-color: #e2eee3;
+}
