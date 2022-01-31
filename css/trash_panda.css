@@ -1,0 +1,26 @@
+#heroimage-trashpanda { 
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/Trash\ Panda/heroimage.jpg) center center;
+
+    height: 500px !important; /*% sana but it doesnt respond*/
+}
+
+
+#heroimage-trashpanda > div{ 
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+@media (max-width: 1280px){
+
+    #heroimage-trashpanda > div{ 
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+#bodytext1 {
+    margin-bottom: 200px;
+    margin-top: 200px !important;
+    width: 80vw;
+}

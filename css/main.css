@@ -76,17 +76,57 @@ h5 {
     padding: 10px 20px;
 }
 
+.navbar {
+    background-color: rgba(255, 255, 255, 0.0);
+}
+
+.untransparent {
+    -webkit-animation-name: untransparent; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 0s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-fill-mode: forwards;
+    animation-name: untransparent;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-duration: 0.3s;
+}
+
+@keyframes untransparent {
+    100% {
+        background-color: rgba(255, 255, 255, 1.0);
+    }
+}
+
+.transparented {
+    background-color: rgba(255, 255, 255, 1.0) ;
+    -webkit-animation-name: transparented; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 0s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-fill-mode: forwards;
+    animation-name: transparented;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-duration: 0.3s;
+}
+
+@keyframes transparented {
+    100% {
+        background-color: rgba(255, 255, 255, 0.0) ;
+    }
+}
+
+
 .nav-item {
     padding: 10px 40px;
-    color: black;
 }
 
 .nav-link {
-    color: black
+    color: rgb(185, 185, 185) !important
+    
 }
 
 .nav-link.active { /*add an underline effect*/
-    font-weight: bold;
+    font-weight: bold !important;
 }
 
 .card {
@@ -125,4 +165,3 @@ img {
 .mt-7 {
     margin-top: 5rem;
 }
-

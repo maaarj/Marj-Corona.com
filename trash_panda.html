@@ -12,29 +12,31 @@
     <!--Icons-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/trash_panda.css">
+    <link rel="stylesheet" href="css/main.css">
 
     <title>Trash Panda</title>
 </head>
 <body>
     <!--Navigation bar turn to collapse & sticky -->
-    <nav class="navbar fixed-top  navbar-expand-md bg-light ">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        <div class="collapse navbar-collapse " id="collapsibleNavbar">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
+    <nav id="nav" class="navbar fixed-top  navbar-expand-md navbar-light  ">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navDropdown">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse " id="navDropdown">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
         </div>
     </nav>
 
@@ -46,7 +48,7 @@
     </div>
 
     <!--Project summary, type, role. have more spacing in between-->
-    <div class="container mt-5 mb-5">
+    <div class="container mt-5 pt-5 ps-4 mb-5">
         <div class="row">
             <div class="col-md me-lg-5 pe-lg-5 pb-md-5">
                 <h5  id="Summary">Summary</h5>
@@ -72,7 +74,7 @@
     </div>
 
     
-    <div class="container-fluid sections">
+    <div class="container section-spacing">
         <!--Overview-->
         <!--I fixed the width of this but I couldn't center it. Or is it just me?? Or its the summary and shit? I added mx-auto-->
         <div class="container sub-section-1"> 
@@ -127,7 +129,7 @@
     </div>
 
     <!--The users-->
-    <div class="container sections">
+    <div class="container section-spacing">
         <h1 class="text-center">The users</h1>
         <div class="sub-section-1"> <!--why it didnt center :o-->
             <p style="margin-bottom: 30px;">Trash panda’s target audience is 22-35 year-olds that have <a href="https://www.delta-net.com/health-and-safety/environmental-awareness/faqs/what-is-environment-awareness">high environmental awareness.</a></p>
@@ -139,18 +141,18 @@
     </div>
 
     <!--The problem-->
-    <div class="container sections">
+    <div class="container section-spacing">
         <h1 class="text-center">The Problem</h1>
         <p class="sub-section-1">After analyzing the data, these are the problems that surfaced among the users and Trash panda:</p>
 
         
         <div class="container">
             <!--Prob#1-->
-            <div class="row">
+            <div class="row mt-5">
                 <div class="col-md">
                     <img src="photos/Trash Panda/prob 1 - Information discoverability.png">
                 </div>
-                <div class="col-md">
+                <div class="col-md py-5">
                     <h3>Problem #1 - Information Discoverability</h3>
                     <p>Inquiries about accepted recyclables and collection fees are evident on their Facebook page.
 
@@ -160,11 +162,11 @@
             </div>
 
             <!--Prob#2-->
-            <div class="row">
+            <div class="row mt-5">
                 <div class="col-md">
                     <img src="photos/Trash Panda/Problem 2 - cancel booking.png">
                 </div>
-                <div class="col-md">
+                <div class="col-md py-5">
                     <h3>Problem #2 - Booking Cancellation</h3>
                     <p>Without the ability to systematically cancel booking:
                         <ul>
@@ -177,11 +179,11 @@
             </div>
 
             <!--Prob#3-->
-            <div class="row">
+            <div class="row mt-5">
                 <div class="col-md">
                     <img src="photos/Trash Panda/User concerns on Facebook.png">
                 </div>
-                <div class="col-md">
+                <div class="col-md py-5">
                     <h3>Problem #3 - System status & Feedback</h3>
                     <p>One usability participant pointed out that whenever she books for a pick up she’s a bit worried whether she actually secured her slot. She stated this from her experience with other services.<br><br>
                     
@@ -196,7 +198,7 @@
     </div>
 
     <!--The process-->
-    <div class="container sections">
+    <div class="container section-spacing">
         <h1 class="text-center">The Process</h1>
         <h2 class="text-center">Understanding the Users</h2>
         
@@ -215,18 +217,21 @@
         </div>
         <div class="sub-section-1">
             <!-- User interview-->
-            <h3>User interviews</h3>
+            <h3 class="pt-5">User interviews</h3>
             <p class="mb-5">As an alternative for gathering user feedbacks from Google playstore, I read through their Facebook page to look at the bigger picture and identify users' pain points.<br><br>
 
             ​I also used this opportunity to reach out to them, and recruit participants for user research.</p>
 
             <!--Usability testing-->
-            <h3>Unmoderated Usability testing</h3>
-            <p class="mb-5">As an alternative for gathering user feedbacks from Google playstore, I read through their Facebook page to look at the bigger picture and identify users' pain points.<br><br>
+            <h3 class="pt-5">Unmoderated Usability testing</h3>
+            <p class="">As an alternative for gathering user feedbacks from Google playstore, I read through their Facebook page to look at the bigger picture and identify users' pain points.<br><br>
 
             ​I also used this opportunity to reach out to them, and recruit participants for user research.</p>
         </div>
-        <img class="mb-5" src="photos/Trash Panda/Usability result.png"/>
+        <div class="d-flex">
+            <img class="mb-5 mx-auto" src="photos/Trash Panda/Usability result.png"/>
+
+        </div>
         <div class="sub-section-1">
             <h4>What the Users have to say</h4>
             <!--ITS NOT DOING THE COLUMNS T_T-->
@@ -259,7 +264,7 @@
     </div>
 
     <!--Analysis-->
-    <div class="container sections">
+    <div class="container section-spacing">
         <h1 class="text-center">Analysis</h1>
             <h3 class="text-center">Affinity Map</h3>
         <div class="sub-section-1">
@@ -276,7 +281,7 @@
     </div>
 
     <!--Ideate-->
-    <div class="container sections">
+    <div class="container section-spacing">
         <!--customer journey-->
         <h1 class="text-center">Ideate</h1>
         <div class="sub-section-1">
@@ -309,7 +314,7 @@
     </div>
 
     <!--UX suggestions-->
-    <div class="container sections">
+    <div class="container section-spacing">
         <h1 class="text-center">UX Suggestions</h1>
         <!--#1-->
         <div class="row">
@@ -369,7 +374,7 @@
     </div>
 
     <!--Usability testing-->
-    <div class="container sections">
+    <div class="container section-spacing">
         <h1 class="text-center">Usability Testing</h1>
         <div class="sub-section-1">
             
@@ -381,46 +386,45 @@
                 </ul>
             </p>
         </div>
-        <img src="photos/Trash Panda/Validation results.png"/>
+        <div class="d-flex pb-5">
+            <img class="mx-auto" src="photos/Trash Panda/Validation results.png"/>
+        </div>
         <div class="sub-section-1">
-
             <h4>What Users have to say</h4>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md">
-                        <p>
-                            “This design is a huge improvement to the current app as it addresses the areas that the app could improve on.”
-                        </p>
-                    </div>
-                    <div class="col-md">
-                        <p>
-                            “The design makes task simpler since its all available now.”
-                        </p>
-                    </div>
-                    <div class="col-md">
-                        <p>
-                            “It was a bit new to me but its good that there are other option to check this instead of waiting for an open schedule.”
-                        </p>
-                    </div>
+
+            <div class="row mb-7">
+                <div class="col-md">
+                    <p>
+                        “This design is a huge improvement to the current app as it addresses the areas that the app could improve on.”
+                    </p>
                 </div>
-                <p><b>Key insights</b>
-                    <ul>
-                        <li>Users found it easier to access information</li>
-                        <li>There's evidence of users adjusting to the changes on the first task.</li>
-                        <li>Users like that everything is available now in the app.</li>
-                        <li>Some users are exploring other paths in accomplishing tasks.</li>
-                    </ul>
-                    <p>View the reports <a href="https://app.maze.co/report/72yyzgrkuoyre4n">here.</a></p>
-                </p>
-                
+                <div class="col-md">
+                    <p>
+                        “The design makes task simpler since its all available now.”
+                    </p>
+                </div>
+                <div class="col-md">
+                    <p>
+                        “It was a bit new to me but its good that there are other option to check this instead of waiting for an open schedule.”
+                    </p>
+                </div>
             </div>
+            <p><b>Key insights</b>
+                <ul>
+                    <li>Users found it easier to access information</li>
+                    <li>There's evidence of users adjusting to the changes on the first task.</li>
+                    <li>Users like that everything is available now in the app.</li>
+                    <li>Some users are exploring other paths in accomplishing tasks.</li>
+                </ul>
+                <p>View the reports <a href="https://app.maze.co/report/72yyzgrkuoyre4n">here.</a></p>
+            </p>
+
         </div>
     </div>
 
     <!--Concept testing-->
-    <div class="container sections">
+    <div class="container section-spacing">
         <h1 class="text-center">Concept Testing</h1>
-        <img> <!--mockups-->
         <div class="sub-section-1">
             <p>I conducted a quick concept testing with 3 participants who have booked with Trash panda. I aim to determine if the features are useful and improve their overall experience.<br><br>
 
@@ -428,12 +432,12 @@
             </p>
         </div>
         <!--cashback-->
-        <div class="row mb-6">
+        <div class="row pt-4 mb-6">
             <div class="col-md">
                 <img src="photos/Trash Panda/B&A - Cashback.png">
             </div>
             <div class="col-md">
-                <h3>Cashback</h3>
+                <h3 class="pt-5">Cashback</h3>
                 <p>I went ahead to design the 2 features that are currently not implemented in the app.<br><br>
 
                     Cashback - where they can process the withdrawal of their balance to their preferred e-wallets or bank. They can also see their transaction history and a quick summary of their request at the end of the process before confirming.<br><br>
@@ -444,12 +448,12 @@
         </div>
 
         <!--coaching corner-->
-        <div class="row mb-6">
+        <div class="row pt-4 mb-6">
             <div class="col-md">
                 <img src="photos/Trash Panda/B&A - Cashback.png">
             </div>
             <div class="col-md">
-                <h3>Coaching corner</h3>
+                <h3 class="pt-5">Coaching corner</h3>
                 <p>
                     I moved the coaching corner to the hamburger menu to have a dedicated area for it and give way to the schedules, and support link.
                 </p>
@@ -457,12 +461,12 @@
         </div>
 
         <!--booking history-->
-        <div class="row mb-6">
+        <div class="row pt-4 mb-6">
             <div class="col-md">
                 <img src="photos/Trash Panda/B&A - Cashback.png">
             </div>
             <div class="col-md">
-                <h3>Booking History</h3>
+                <h3 class="pt-5">Booking History</h3>
                 <p>Previously, customers will need to check their email to check the booking details. Currently, there is no means for the customer to check which recycling facility did their recyclables ended up in.
                 </p>
             </div>
@@ -489,7 +493,7 @@
     </div>
     
     <!--Reflection--> 
-    <div class="container sections">
+    <div class="container section-spacing">
         <h1 class="text-center">Reflections and lessons learned</h1>
         <div class="sub-section-1">
             
@@ -556,6 +560,6 @@
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
+    <script src="js/main.js"></script>
 </body>
 </html>

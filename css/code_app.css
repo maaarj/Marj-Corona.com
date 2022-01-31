@@ -1,0 +1,24 @@
+.quote_bg {
+    background-color: #ebf1f1;
+}
+
+.blockquote > p{
+    font-size: 40px;
+    font-style: italic;
+}
+
+#gallery {
+    background-color: #e2eee3;
+}
+
+
+
+@media (max-width: 1280px){
+
+    .padded {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top:5px;
+    }
+
+}
