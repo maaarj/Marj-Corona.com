@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!--Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/trash_panda.css">
+
+    <title>Trash Panda</title>
+</head>
+<body>
+    <!--Navigation bar turn to collapse & sticky -->
+    <nav class="navbar fixed-top  navbar-expand-md bg-light ">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse " id="collapsibleNavbar">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <!--Hero image-->
+    <div class="jumbotron jumbotron-fluid" id="heroimage-trashpanda"> <!--im not sure how to do the responsive image if its a cover. I set it as bg in css & couldnt dim the image only-->
+        <div class="container text-center pt-5">
+            <h1 class="display-4" style="color: white;" id="hero-title">Trash Panda redesign</h1>
+        </div>
+    </div>
+
+    <!--Project summary, type, role. have more spacing in between-->
+    <div class="container mt-5 mb-5">
+        <div class="row">
+            <div class="col-md me-lg-5 pe-lg-5 pb-md-5">
+                <h5  id="Summary">Summary</h5>
+                <p class="justified">I did a partial redesign of the app to improve the navigation and discoverability of information. I also initiated designing the features currently not implemented in the app.</p>
+            </div>
+            <div class="col-md pb-md-5">
+                <h5 id="Project-type">Project Type</h5>
+                <ul>
+                    <li>Personal project</li>
+                    <li>Unsolicited redesign</li>
+                </ul>
+            </div>
+            <div class="col-md pb-md-5">
+                <h5 id="Roles">Roles</h5>
+                <ul>
+                    <li>Ux researcher</li>
+                    <li>UX designer</li>
+                    <li>UI designer</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    
+    <div class="container-fluid sections">
+        <!--Overview-->
+        <!--I fixed the width of this but I couldn't center it. Or is it just me?? Or its the summary and shit? I added mx-auto-->
+        <div class="container sub-section-1"> 
+            <h3 class="text-center">Trash Panda</h3>
+            <p>After looking through options on how I can properly dispose my recyclables, I came across Trash Panda on Facebook. They offer pick up service for recyclables which is timely and useful during Covid-19 lockdown.<br><br>
+            
+            I began my case study by doing a <b>brand analysis</b> on Trash panda by going through their website and Facebook page. Through this, I was able to learn about their customers and competitors.</p>
+        </div>
+
+        <!--Why the redesign. couldnt fit the image-->
+        <div class="container-fluid " id="bodytext1">
+            <h3 class="text-center">Why the redesign?</h3>
+            <div class="row">
+                <div class="col-md mb-sm-5" id="image1">
+                    <img src="photos/Trash Panda/Main screen sample.png" id="image1"/>
+                </div>
+                <!--text-->
+                <div class="col-md ">
+                    <p class="justified">Although the app is pretty straightforward and easy to use, the in-app experience <b>starts to plunge when users are doing the research before considering Trash Panda.</b> Users will not hesitate to abandon their tasks or uninstall the application if they can't find the information they needed right away. It can result in users leaving them for their competitors. <br><br>
+
+                    Furthermore, I discovered that there is no means for the customer to cancel their booking within the app. This may not affect the overall user experience but it can have a huge impact on <b>business resources</b> since customers don't need to pay fees upfront.</p>
+                </div>
+            </div> 
+        </div>
+
+        <!--Objectives-->
+        <div class="container mx-auto sub-section-1"> 
+            <h3>Objectives for the redesign</h3>
+            <ol>
+                <li>Improve information discoverability.</li>
+                <li>Test features to identify if it further improve the customer experience.</li>
+            </ol>
+        </div>
+
+        <!--Personal Objectives-->
+        <div class="container mx-auto sub-section-1"> 
+            <h3>Personal Objectives</h3>
+            <ol>
+                <li>Take full ownership of the various roles involved in designing an app.</li>
+                <li>Enhance my learning experience by carrying out UX activities and challenging design decisions through testing.</li>
+            </ol>
+        </div>
+
+        <!--Scope and Limitation-->
+        <div class="container mx-auto mt-5 mb-5 sub-section-1"> 
+            <h3>Scope and Limitation</h3>
+            <ol>
+                <li>Take full ownership of the various roles involved in designing an app.</li>
+                <li>Enhance my learning experience by carrying out UX activities and challenging design decisions through testing.</li>
+            </ol>
+        </div>
+    </div>
+
+    <!--The users-->
+    <div class="container sections">
+        <h1 class="text-center">The users</h1>
+        <div class="sub-section-1"> <!--why it didnt center :o-->
+            <p style="margin-bottom: 30px;">Trash panda’s target audience is 22-35 year-olds that have <a href="https://www.delta-net.com/health-and-safety/environmental-awareness/faqs/what-is-environment-awareness">high environmental awareness.</a></p>
+            <h3>Persona</h3>
+            <p >I put a face on Trash Panda’s target audience to easily understand their motivations, problems, and personality and brainstorm suitable solutions.
+            </p>    
+        </div>
+        <img style="width: inherit;" src="photos/Trash Panda/Persona.png"/>
+    </div>
+
+    <!--The problem-->
+    <div class="container sections">
+        <h1 class="text-center">The Problem</h1>
+        <p class="sub-section-1">After analyzing the data, these are the problems that surfaced among the users and Trash panda:</p>
+
+        
+        <div class="container">
+            <!--Prob#1-->
+            <div class="row">
+                <div class="col-md">
+                    <img src="photos/Trash Panda/prob 1 - Information discoverability.png">
+                </div>
+                <div class="col-md">
+                    <h3>Problem #1 - Information Discoverability</h3>
+                    <p>Inquiries about accepted recyclables and collection fees are evident on their Facebook page.
+
+                    I also noticed that 2 of the usability participants were confused or is expecting to see a dedicated area to easily access the accepted recyclables and collection fees.
+                    </p>
+                </div>
+            </div>
+
+            <!--Prob#2-->
+            <div class="row">
+                <div class="col-md">
+                    <img src="photos/Trash Panda/Problem 2 - cancel booking.png">
+                </div>
+                <div class="col-md">
+                    <h3>Problem #2 - Booking Cancellation</h3>
+                    <p>Without the ability to systematically cancel booking:
+                        <ul>
+                            <li>Users face minor inconvenience by reaching out and waiting for a response from support on Facebook page.</li>
+                            <li>The inefficiency of the method for employees to manually scan through messages for any cancellations.</li>
+                        </ul>
+                        <p>This could result in poor resource management which can greatly impact Trash Panda.</p>
+                    </p>
+                </div>
+            </div>
+
+            <!--Prob#3-->
+            <div class="row">
+                <div class="col-md">
+                    <img src="photos/Trash Panda/User concerns on Facebook.png">
+                </div>
+                <div class="col-md">
+                    <h3>Problem #3 - System status & Feedback</h3>
+                    <p>One usability participant pointed out that whenever she books for a pick up she’s a bit worried whether she actually secured her slot. She stated this from her experience with other services.<br><br>
+                    
+                    Confirmations emails are sent only a day before the collection day and send text messages if the collectors are nearby.<br><br>
+                        
+                    Inquiries and concern are also evident on their Facebook page.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--The process-->
+    <div class="container sections">
+        <h1 class="text-center">The Process</h1>
+        <h2 class="text-center">Understanding the Users</h2>
+        
+        <!--comments-->
+        <div class="row mt-5 mb-5">
+            <div class="col-md">
+                <img src="photos/Trash Panda/User inquries on Facebook.png">
+            </div>
+            <div class="col-md">
+                <h3>Comments on their Facebook Page</h3>
+                <p>As an alternative for gathering user feedbacks from Google playstore, I read through their Facebook page to look at the bigger picture and identify users' pain points.<br><br>
+
+                    ​I also used this opportunity to reach out to them, and recruit participants for user research.
+                </p>
+            </div>
+        </div>
+        <div class="sub-section-1">
+            <!-- User interview-->
+            <h3>User interviews</h3>
+            <p class="mb-5">As an alternative for gathering user feedbacks from Google playstore, I read through their Facebook page to look at the bigger picture and identify users' pain points.<br><br>
+
+            ​I also used this opportunity to reach out to them, and recruit participants for user research.</p>
+
+            <!--Usability testing-->
+            <h3>Unmoderated Usability testing</h3>
+            <p class="mb-5">As an alternative for gathering user feedbacks from Google playstore, I read through their Facebook page to look at the bigger picture and identify users' pain points.<br><br>
+
+            ​I also used this opportunity to reach out to them, and recruit participants for user research.</p>
+        </div>
+        <img class="mb-5" src="photos/Trash Panda/Usability result.png"/>
+        <div class="sub-section-1">
+            <h4>What the Users have to say</h4>
+            <!--ITS NOT DOING THE COLUMNS T_T-->
+            <div class="container mb-7">
+                <div class="row">
+                    <div class="col-md">
+                        <p>"Once I understood that all the relevant information shows up in the booking, it was easy to figure out how much it would cost for the recyclables I had at home by simulating a booking first."</p>
+                    </div>
+                    <div class="col-md">
+                        <p>"The list was kinda hidden. It might be good to put it up on the "homepage", or at least an easily accessible FAQ at the homepage."
+                        </p>
+                    </div>
+                    <div class="col-md">
+                        <p>"There's no visible cancel option I could find. I assume this means I have to contact the team on FB or elsewhere."
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <P><b>Key insights</b>
+                <ul>
+                    <li>Most of the users hesitated tapping on the 'Book Now' and available schedule for checking the list of recyclables at first.</li>
+                    <li>Users were able to easily access information once they understood that is it available within the booking process.</li>
+                    <li>Assumed that they have to contact support to cancel their booking.</li>
+                    <li>The UI is simple enough for them.</li>
+                </ul>
+                <p>You can view the report <a href="https://app.maze.co/report/1f18cnrks72k6yq#intro">here</a></p>
+            </P>
+        </div>
+    </div>
+
+    <!--Analysis-->
+    <div class="container sections">
+        <h1 class="text-center">Analysis</h1>
+            <h3 class="text-center">Affinity Map</h3>
+        <div class="sub-section-1">
+            <p>I grouped the data into themes to easily make sense of the data I gathered from research. This helped me
+                <ul>
+                    <li>Identify issues.</li>
+                    <li>Generate ideas.</li>
+                    <li><b>Inform</b> my persona, customer journey maps, and sketches.</li>
+                </ul>
+            </p>
+        </div>
+        <img src="photos/Trash Panda/trash panda affinity diagram.PNG"/>
+
+    </div>
+
+    <!--Ideate-->
+    <div class="container sections">
+        <!--customer journey-->
+        <h1 class="text-center">Ideate</h1>
+        <div class="sub-section-1">
+            
+            <h3>Customer Journey</h3>
+            <p>Not only did this help me understand Jane's touchpoints but also revealed how Jane feels at each phase. This also helped me pinpoint areas outside of the app that can be included in the app and test.
+            </p>
+            
+        </div>
+        <img src="photos/Trash Panda/Customer Journey Map.png"/>
+        <!--sketch-->
+        <div class="container mt-6">
+            <div class="row">
+                <div class="col-md ">
+                    <img src="photos/Trash Panda/sketch trash panda.PNG"/>
+                </div>
+                <div class="col-md ps-5">
+                    <h3>Sketches</h3>
+                    <p>I sketched out a few possible solutions from the ideation stage. This helped me to focus on the layout rather than aesthetics or design details and allowed me to freely generate as many ideas as I can.
+                    <ul>
+                        <li>Maintain the simplicity of the application.</li>
+                        <li>Provide an easier way to access information.</li>
+                        <li>Design parts of the application that has not been developed yet.</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--UX suggestions-->
+    <div class="container sections">
+        <h1 class="text-center">UX Suggestions</h1>
+        <!--#1-->
+        <div class="row">
+            <div class="col-md">
+                <img src="photos/Trash Panda/B&A - Homepage.png"/>
+            </div>
+            <div class="col-md pb-5">
+                <h3>#1 - Information discoverability</h3>
+                <p>Bottom nav & Hamburger menu - to let the users feel in control in navigation. Most important information like Collection fee and List of recyclables is not only available in the booking process.<br><br>
+
+                    Also, users are provided with a variety of options on how to accomplish their tasks.
+                    
+                    Open schedules and My Upcoming Schedules are moved to the homepage to be easily seen instead of clicking the Book Now button first.<br><br>
+                    
+                    My Upcoming Schedules will also display a status below the date to easily communicate the pick-up or booking status and reduce user effort.</p>
+            </div>
+        </div>
+
+
+        <!--#2-->
+        <div class="row">
+            <div class="col-md">
+                <img src="photos/Trash Panda/B&A - Cancel booking.png"/>
+            </div>
+            <div class="col-md">
+                <h3>#2 - Cancel booking</h3>
+                <p>Map - to provide them with the real-time location of the collectors. This way customers can easily visualize where the collectors are in case they got lost.<br><br>
+
+                    Cancel button - I added this on the Booking summary for ease of access, and added a note when the button will be disabled. This can also be easily seen by Trash Panda.</p>
+            </div>
+        </div>
+
+        <!--#3-->
+        <div class="row">
+            <div class="col-md">
+                <img src="photos/Trash Panda/B&A - Feedback.png"/>
+            </div>
+            <div class="col-md">
+                <h3>#3 - System status & Feedback</h3>
+                <p>Date and status - I added the status below the date to maintain design consistency and provide immediate status.<br><br>
+
+                    I also added confirmation popups to let the users know that the system received their requests or an option to undo request.</p>
+            </div>
+        </div>
+
+        <!--#4-->
+        <div class="row">
+            <div class="col-md">
+                <img src="photos/Trash Panda/B&A - New booking.png"/>
+            </div>
+            <div class="col-md">
+                <h3>#4 - Progress trackers</h3>
+                <p>I replaced the step numbers on the top left part of the booking process with a progress tracker or wizard to help the users know how many steps they have to complete, where they are in the process, and which steps they have completed.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!--Usability testing-->
+    <div class="container sections">
+        <h1 class="text-center">Usability Testing</h1>
+        <div class="sub-section-1">
+            
+            <p>To test the changes made to the current design, I asked the usability participants to do these tasks again and aim to:
+                <ul>
+                    <li>See if the solution targets the initial problems.</li>
+                    <li>Uncover usability problems with the new design.</li>
+                    <li>Observe their reaction and how users adjust to the change.</li>
+                </ul>
+            </p>
+        </div>
+        <img src="photos/Trash Panda/Validation results.png"/>
+        <div class="sub-section-1">
+
+            <h4>What Users have to say</h4>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md">
+                        <p>
+                            “This design is a huge improvement to the current app as it addresses the areas that the app could improve on.”
+                        </p>
+                    </div>
+                    <div class="col-md">
+                        <p>
+                            “The design makes task simpler since its all available now.”
+                        </p>
+                    </div>
+                    <div class="col-md">
+                        <p>
+                            “It was a bit new to me but its good that there are other option to check this instead of waiting for an open schedule.”
+                        </p>
+                    </div>
+                </div>
+                <p><b>Key insights</b>
+                    <ul>
+                        <li>Users found it easier to access information</li>
+                        <li>There's evidence of users adjusting to the changes on the first task.</li>
+                        <li>Users like that everything is available now in the app.</li>
+                        <li>Some users are exploring other paths in accomplishing tasks.</li>
+                    </ul>
+                    <p>View the reports <a href="https://app.maze.co/report/72yyzgrkuoyre4n">here.</a></p>
+                </p>
+                
+            </div>
+        </div>
+    </div>
+
+    <!--Concept testing-->
+    <div class="container sections">
+        <h1 class="text-center">Concept Testing</h1>
+        <img> <!--mockups-->
+        <div class="sub-section-1">
+            <p>I conducted a quick concept testing with 3 participants who have booked with Trash panda. I aim to determine if the features are useful and improve their overall experience.<br><br>
+
+                You can check out the redesigned prototype <a href="https://www.figma.com/proto/ka8frtHDpjwOzgAdZadN9K/Trash-panda-Redesigned?page-id=0%3A1&node-id=2%3A566&viewport=284%2C48%2C0.5&scaling=scale-down&starting-point-node-id=2%3A566">here</a>
+            </p>
+        </div>
+        <!--cashback-->
+        <div class="row mb-6">
+            <div class="col-md">
+                <img src="photos/Trash Panda/B&A - Cashback.png">
+            </div>
+            <div class="col-md">
+                <h3>Cashback</h3>
+                <p>I went ahead to design the 2 features that are currently not implemented in the app.<br><br>
+
+                    Cashback - where they can process the withdrawal of their balance to their preferred e-wallets or bank. They can also see their transaction history and a quick summary of their request at the end of the process before confirming.<br><br>
+                    
+                    The form is modeled close to Gcash(a common e-wallet app in the Philippines) for familiarity.
+                </p>
+            </div>
+        </div>
+
+        <!--coaching corner-->
+        <div class="row mb-6">
+            <div class="col-md">
+                <img src="photos/Trash Panda/B&A - Cashback.png">
+            </div>
+            <div class="col-md">
+                <h3>Coaching corner</h3>
+                <p>
+                    I moved the coaching corner to the hamburger menu to have a dedicated area for it and give way to the schedules, and support link.
+                </p>
+            </div>
+        </div>
+
+        <!--booking history-->
+        <div class="row mb-6">
+            <div class="col-md">
+                <img src="photos/Trash Panda/B&A - Cashback.png">
+            </div>
+            <div class="col-md">
+                <h3>Booking History</h3>
+                <p>Previously, customers will need to check their email to check the booking details. Currently, there is no means for the customer to check which recycling facility did their recyclables ended up in.
+                </p>
+            </div>
+        </div>
+
+        <!--what users have to say-->
+        <div class="sub-section-1 mt-5">
+            <h4>What Users have to say</h4>
+            <div class="row ">
+                <div class="col-md">
+                    <p>“It’s good so I don’t have to check my email for the booking”
+                    </p>
+                </div>
+                <div class="col-md">
+                    <p>“This is very useful”
+                    </p>
+                </div>
+                <div class="col-md">
+                    <p>“I like this. Everything is available in the app.”
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--Reflection--> 
+    <div class="container sections">
+        <h1 class="text-center">Reflections and lessons learned</h1>
+        <div class="sub-section-1">
+            
+            <h4>#1 The taste of the real experience</h4>
+            <p>
+                I started very nervous but very excited about this project because I treated this as a real one. After the process, I feel very fulfilled and excited to think about the next case study. This helped me to realize that I:<br>
+                <ul>
+                    <li>
+                        Enjoy generating ideas or solutions.
+                    </li>
+                    <li>
+                        Sketching those solutions.
+                    </li>
+                    <li>
+                        Keeping the users and the business aligned.
+                    </li>
+                    <li>
+                        It's okay to fail as long as you learn from it.
+                    </li>
+                </ul>
+                <p>From that, I was able to drop the things I overthink about and did the best I could.</p>
+            </p>
+            <h4 class="mt-5">
+                #2 Recruitment and user research
+            </h4>
+            <p>
+                It was a good experience to talk and reach out to total strangers for the interview, it gave me an idea of how a real user interview will be and prepared me for the next case study.<br><br>
+
+                The recruitment was more of a challenge than the interview since I relied on Facebook page rather than joining groups that have the same goal as Trash Panda, at the same time.
+            </p>
+            <h4 class="mt-5">
+                #3 Usability testing
+            </h4>
+            <p>
+                It's amazing how users adjust to, which for me, is a small change. This proves that not every redesign could be successful.
+            </p>
+            <p>I consider this a success because I was not aiming to improve the time on task but convenience. Efficiency just came as a result of providing what the users need in the tasks.</p>
+        </div>
+    </div>
+    
+    <!-- Footer (fixed bottom redunce the space between icon and header. center icons)-->
+    <div class="footer mt-5" id="footer">
+        <!-- Footer Elements -->
+        <div class="container">
+            <h2>Let's connect</h2>
+    
+            <!-- Grid row-->
+            <div class="row">
+                
+            <!-- Grid column -->
+                <div class="col-md-12 py-5">
+                    <div class="mb-5 flex-center">
+                        <!--Linkedin -->
+                        <a class="li-ic">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        <!--Gmail-->
+                        <a class="ins-ic">
+                            <i class="bi bi-envelope-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>
