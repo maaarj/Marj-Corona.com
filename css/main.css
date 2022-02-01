@@ -124,7 +124,7 @@ h5 {
 }
 
 .nav-link {
-    color: rgb(145, 145, 145) !important
+    color: rgb(145, 145, 145) !important;
     
 }
 
@@ -138,12 +138,17 @@ h5 {
 }
 
 .card-body {
-    padding: 20px 40px;
+    padding: 20px 20px;
 }
 
 .justified {
     text-align: justify !important;
     text-justify: newspaper !important;
+}
+
+.btn.btn-primary {
+    background-color: black;
+    border-color: black;
 }
 
 img {
