@@ -14,9 +14,6 @@ body {
 }
 
 @media (max-width: 768px){
-    #hero-title-home{
-        text-align: justify;
-    }
 
     h1 {
         font-size: 30px !important;
