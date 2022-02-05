@@ -22,3 +22,7 @@
     }
 
 }
+
+.navbar-light .navbar-brand {
+    color: rgb(145, 145, 145);
+}

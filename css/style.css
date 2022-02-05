@@ -3,7 +3,7 @@
 
 #heroimage-codeapp { 
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/Codeapp/code-app-heroimage.jpg) center center;
-    /*filter: brightness(80%); LOL I tried a dim background but the text went dim too lololol*/
+    
     height: 500px !important; /*% sana but it doesnt respond*/
 }
 
@@ -38,9 +38,8 @@
 }
 
 
-#hero-title {
+#hero-title-tp, #hero-title-index {
     justify-self: center;
-    color: white;
 }
 
 #footer {

@@ -19,6 +19,10 @@
     }
 }
 
+.navbar-light .navbar-brand {
+    color: rgb(145, 145, 145);
+}
+
 #bodytext1 {
     margin-bottom: 200px;
     margin-top: 200px !important;

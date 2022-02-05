@@ -24,36 +24,43 @@
 </head>
 <body>
     <!--Navigation bar turn to collapse & sticky -->
-    <nav id="nav" class="navbar fixed-top  navbar-expand-md navbar-light  ">
+    <nav id="nav" class="navbar fixed-top  navbar-expand-md navbar-light">
+
+        <!--toggler-->
         <div class="container-fluid">
+            <a class="navbar-brand" href="index.html" style="font-size: 29px; padding-left: 20px;">
+                Marjie Corona
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navDropdown">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            
             <div class="collapse navbar-collapse " id="navDropdown">
-              <ul class="navbar-nav mx-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#footer">Contact</a>
-                </li>
-              </ul>
-            </div>
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#footer">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            
         </div>
     </nav>
 
     <!--Hero image-->
-    <div class="jumbotron jumbotron-fluid text-center" id="heroimage-trashpanda">
-        <div class="container text-center pt-5">
-            <h1 class="display-4" style="color: white;" id="hero-title">Trash Panda redesign</h1>
+    <div class="jumbotron jumbotron-fluid section-spacing text-center" id="heroimage-trashpanda">
+        <div class="container-md mt-7">
+            <h1 class="display-4" style="color: white;" id="hero-title-tp">Trash Panda redesign</h1>
         </div>
     </div>
 
     <!--Project summary, type, role. have more spacing in between-->
-    <div class="container mt-5 pt-5 ps-4 mb-5">
+    <div class="container mt-5 pt-5 mb-5">
         <div class="row">
             <div class="col-md me-lg-5 pe-lg-5 pb-md-5">
                 <h5  id="Summary">Summary</h5>
@@ -514,12 +521,12 @@
         <div class="container">
             <h2 class="text-center">Let's connect</h2>
             <div class="d-flex justify-content-center" id="footer-elements">
-                <a class="li-ic me-5" href="https://www.linkedin.com/in/marjie-corona/" target="_blank" rel="noreferrer noopener">
+                <a class="li-ic me-5" href="https://www.linkedin.com/in/marjie-corona/" target="_blank" rel="noreferrer noopener" id="linkedin">
                     <i class="bi bi-linkedin"></i>
                 </a>
                 
                 <!--Gmail-->
-                <a class="ins-ic" href="mailto: marj.corona97@gmail.com">
+                <a class="ins-ic" href="mailto: marj.corona97@gmail.com" id="gmail">
                     <i class="bi bi-envelope-fill"></i>
                 </a>
             </div>
