@@ -23,7 +23,6 @@
 </head>
 <body>
     <!--Navigation bar (collapse, sticky)-->
-    <!--Navigation bar (collapse, sticky)-->
     <nav id="nav" class="navbar fixed-top  navbar-expand-md navbar-light">
 
         <!--toggler-->
@@ -53,27 +52,27 @@
     </nav>
 
     <!--Hero image-->
-    <div class="jumbotron jumbotron-fluid" id="heroimage-codeapp"> <!--im not sure how to do the responsive image if its a cover. I set it as bg in css & couldnt dim the image only-->
-        <div class="container text-center pt-5">
-            <h1 class="display-4" id="hero-title">#Code App</h1>
+    <div class="jumbotron jumbotron-fluid section-spacing text-center" id="heroimage-codeapp"> 
+        <div class="container-md mt-7">
+            <h1 class="display-4" style="color: white;" id="hero-title-code">#Code App</h1>
         </div>
     </div>
 
     <!--Project summary, type, role. have more spacing in between-->
-    <div class="container section-spacing">
+    <div class="container mt-5 mb-5" id="highlvl-overview">
         <div class= "row">
-            <div class="col-md me-lg-5 pe-lg-5 pb-md-5">
+            <div class="col-md px-4" id="summary">
                 <h5 id="Summary">Summary</h5>
                 <p>#Code app is a learning application for beginners in learning #C. We aim to engage users and have digestible information while learning #C through Study streak, progress trackers, mixed learning materials, downloadable courses, and certification.</p>
             </div>
-            <div class="col-md">
+            <div class="col-md px-4" id="project-type">
                 <h5 id="Project-type">Project Type</h5>
                 <ul>
                     <li>Coure requirement</li>
                     <li>Mobile Development Project</li>
                 </ul>
             </div>
-            <div class="col-md">
+            <div class="col-md px-4" id="roles">
                 <h5 id="Roles">Roles & Deliverables</h5>
                 <p>UX / UI</p>
                 <ul>
@@ -94,10 +93,10 @@
     <div class="container section-spacing">
         <div class="container">
             <div class="row">
-                <div class="col-md">
+                <div class="col-md order-md-1 order-2 my-auto">
                     <img src="photos/Codeapp/brainstorming session.png"/>
                 </div>
-                <div class="col-md ps-5">
+                <div class="col-md order-md-2 order-1" id="card-text">
                     <h3><b>#Code App</b></h3>
                         <p>#Code app is a course requirement for our Mobile development class. The requirement is for us to develop any Android application. We chose to work on what is common for all of the members of the group, learning programming languages.<br>
                         <br>
@@ -123,7 +122,7 @@
     <!--Problems & Solution-->
     <div class="container section-spacing">
         <div class="row ">
-            <div class="col-md">
+            <div class="col-md px-4">
                 <h3><b>The Problem</b></h3>
                 <p>
                     <ul>
@@ -133,7 +132,7 @@
                     </ul>
                 </p>
             </div>
-            <div class="col-md ">
+            <div class="col-md" id="proposed-solution">
                 <h3><b>Proposed Solution</b></h3>
                 <p>
                     <ul>
@@ -149,46 +148,49 @@
             </div>
         </div>
     </div>
+
     <!--Ideation-->
-    <div class="section-spacing">
-        <div class="container sections">
-            <div class="container">
-                <h1 class="text-center">How might we be able to minimize the frustration in studying programming languages?</h1>
-            </div>
-        </div>
+    <div class="container section-spacing">
+        <h1 class="text-center">How might we be able to minimize the frustration in studying programming languages?</h1>
+
         <!--Flowchart-->
-        <div class="container">
-            <div class="row container mt-5">
-                <div class="col-md">
+        <div class="container mt-5">
+            <div class="row">
+
+                <!--greater 768 img-order1 p-order2-->
+                <div class="col-md order-md-1 order-2">
                     <img src="photos/Codeapp/User flow.png">
                 </div>
-                <div class="col-md padded">
+                <div class="col-md order-md-2 order-1 my-auto">
                     <h3>Flowchart</h3>
                         <p>I shared this flowchart with the designers and developers to easily map out the key features our app will be doing that we can all understand.
                         </p>
                 </div>
             </div>
         </div>
+
         <!--Wireframes-->
-        <div class="container">
-            <div class="row container" >
-                <div class="col-md order-2 order-md-1 padded">
+        <div class="container mt-5">
+            <div class="row" >
+                <div class="col-md order-md-2 order-2">
+                    <img src="photos/Codeapp/Wireframe.PNG">
+                </div>
+
+                <div class="col-md order-md-1 order-1 my-auto">
                     <h3>Wireframes</h3>
                         <p>After choosing the best ideas from our brainstorming session, Fordy and I translated these ideas into initial wireframes using Adobe XD and continuously asked for our groupmate's feedback.
                         </p>
                 </div>
-                <div class="col-md order-1 order-md-2  padded">
-                    <img src="photos/Codeapp/Wireframe.PNG">
-                </div>
             </div>
         </div>
+
         <!--UI design-->
-        <div class="container">
-            <div class="row container mt-5">
-                <div class="col-md my-auto">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md order-md-1 order-2">
                     <img src="photos/Codeapp/code mockup.png">
                 </div>
-                <div class="col-md padded">
+                <div class="col-md order-md-2 order-1 my-auto">
                     <h3>UI design</h3>
                         <p>The continuous feedback from our groupmates while keeping in mind what we discovered in research is what helped us refine our designs.<br><br>
     
@@ -246,7 +248,7 @@
     </div>
 
     <!--Reflections-->
-    <div class="container mt-5 py-6 sub-section-1 section-spacing quote_bg">
+    <div class="container mt-5 py-5 sub-section-1 quote_bg">
         <h3 class="text-center"><b>What have you learned from this project? </b></h3>
         <p>
             <b>Research can never fail you.</b> No matter how small the research is, it can always teach you something.<br><br>

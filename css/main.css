@@ -24,15 +24,15 @@ body {
     }
 
     h3{
-        font-size: 18px !important;
-    }
-
-    h4 {
         font-size: 21px !important;
     }
 
+    h4 {
+        font-size: 18px !important;
+    }
+
     h5 {
-        font-size: 17px !important;
+        font-size: 16px !important;
     }
 
     p, li { /* a = nav items, references in case study. footer icons*/
@@ -42,12 +42,11 @@ body {
     .card{
         max-width: 80% !important;
     }
-    /*Hero title, 
-    overview
-    section spacing
-    justify: newspaper
-    picture > subheader
-    sub-section-1*/
+
+    #card-text {
+        padding-top: 20px;
+    }
+
 }
 
 
@@ -56,7 +55,7 @@ p, a, li {
     font-size: 19px;
     line-height: 1.7;
     text-align: justify;
-    text-justify: newspaper;
+    /*text-justify: newspaper;*/
 }
 
 h1 {
@@ -151,6 +150,7 @@ h5 {
 
 .nav-link {
     color: rgb(145, 145, 145) !important;
+    text-align: end !important;
     
 }
 
@@ -182,7 +182,7 @@ img {
     
     max-width: 100%;
     height: auto;
-    border-radius: 2%;
+    
 }
 
 .mb-6 {
