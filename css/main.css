@@ -16,27 +16,27 @@ body {
 @media (max-width: 768px){
 
     h1 {
-        font-size: 35px !important;
-    }
+        font-size: 5vw !important;
+    }/*35px*/
 
     h2 {
-        font-size: 25px !important;
+        font-size: 4.5vw !important; /*25*/
     }
 
     h3{
-        font-size: 21px !important;
+        font-size: 3.7vw !important; /*21*/
     }
 
     h4 {
-        font-size: 18px !important;
+        font-size: 3.5vw !important; /*17*/
     }
 
     h5 {
-        font-size: 16px !important;
+        font-size: 3vw !important; /*16*/
     }
 
-    p, li { /* a = nav items, references in case study. footer icons*/
-        font-size: 16px !important;
+    p, li, #body-links { /* a = nav items, references in case study. footer icons*/
+        font-size: 3vw !important; /*16*/
     }
 
     .card{
@@ -50,17 +50,17 @@ body {
 }
 
 
+
 p, a, li {
     font-family: 'Manrope', sans-serif;
     font-size: 19px;
     line-height: 1.7;
     text-align: justify;
-    /*text-justify: newspaper;*/
 }
 
 h1 {
   color: black;
-  font-size: 47px;
+  font-size: 47px; /*47px*/
   font-family: Lulo-clean-bold;
   padding-bottom: 50px;
 }
@@ -170,7 +170,7 @@ h5 {
 
 .justified {
     text-align: justify !important;
-    text-justify: newspaper !important;
+    
 }
 
 .btn.btn-primary {
